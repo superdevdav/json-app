@@ -10,6 +10,9 @@
 6. Спек файлы для запуска приложения в kubernetes кластере.
 7. Диаграмма flowchart, описывающая контроллер.
 
+## Модули
+Список всех необходимых модулей в requirements.txt 
+
 ## CLI приложение gen_models
 Генерирует pydantic модель и сохраняет в /src/rest/models/engine, файл будет называться Engine.py, если kind = 'engine'
 Команда для генерации: gen_models --json-schema=../../engine-schema.json --out-dir=../rest/models/engine
