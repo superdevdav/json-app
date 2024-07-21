@@ -1,0 +1,10 @@
+{
+      "kind": "engine",
+      "name": "hello-world",
+      "version": "v0.1.0",
+      "description": "My application",
+      "configuration": {
+        "specification": {},
+        "settings": {}
+      }
+}
