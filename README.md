@@ -14,11 +14,11 @@
 Список всех необходимых модулей в requirements.txt 
 
 ## CLI приложение gen_models
-Генерирует pydantic модель и сохраняет в /src/rest/models/engine, файл будет называться Engine.py, если kind = 'engine'
+Генерирует pydantic модель и сохраняет в /src/rest/models/engine, файл будет называться Engine.py, если kind = 'engine'<br/>
 Команда для генерации: gen_models --json-schema=../../engine-schema.json --out-dir=../rest/models/engine
 
 ## CLI приложение gen_rest
-Генерирует контроллеры для REST приложения и сохраняет их в /src/rest/routes/engine, файл будет называться {Название pydantic модели}_controller.py
+Генерирует контроллеры для REST приложения и сохраняет их в /src/rest/routes/engine, файл будет называться {Название pydantic модели}_controller.py<br/>
 Команда для генерации: gen_rest --models-../rest/models/engine --rest-routes=../rest/routes/engine
 
 ## База данных
