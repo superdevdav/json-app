@@ -31,5 +31,14 @@ PUT: /{kind}/{uuid}/settings/ - изменение значения словар
 PUT: /{kind}/{uuid}/state - изменение значения статуса объекта<br/>
 DELETE: /{kind}/{uuid}/ - удаление объекта из базы данных<br/>
 
+Пример работы:
+'''
+INFO:     Application startup complete.
+INFO:     Message delivered to post_topic [0]
+INFO:     127.0.0.1:51039 - "POST /engine/ HTTP/1.1" 201 Created
+INFO:     Message delivered to delete_topic [0]
+INFO:     127.0.0.1:51095 - "DELETE /engine/529eb4a7-e879-466c-a52c-3ddc0a32559e/ HTTP/1.1" 200 OK
+'''
+
 ## Спек файлы
 Предложены спек файлы deployment.yml и service.yml для запуска приложения в kubernetes кластере. Создал образ приложения на hub.docker.com в daviddz27/k8s-json-app
