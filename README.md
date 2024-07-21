@@ -10,8 +10,8 @@
 6. Спек файлы для запуска приложения в kubernetes кластере.
 7. Диаграмма flowchart, описывающая контроллер.
 
-## Модули
-Список всех необходимых модулей в requirements.txt 
+## Стэк
+Python, FastAPI, Pydantic, SQLAlchemy, Alembic, список всех необходимых модулей в requirements.txt 
 
 ## CLI приложение gen_models
 Генерирует pydantic модель и сохраняет в /src/rest/models/engine, файл будет называться Engine.py, если kind = 'engine'<br/>
