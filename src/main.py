@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from database.models import create_tables
-from rest.routes.engine.Engine_controller import router
+from rest.routes.engine.Engine_controller import router # Import generated controller
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
