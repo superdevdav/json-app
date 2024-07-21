@@ -23,13 +23,13 @@
 В DocumentRepository.py описан класс с методами для взаимодействия с базой данных.
 
 ## REST приложение
-GET: /{kind}/{uuid}/state - возвращение значения статуса объекта
-GET: /{kind}/{uuid} - возвращение объекта из базы данных
-POST: /{kind}/ - запрос на сохранение json документа
-PUT: /{kind}/{uuid}/configuration/ - изменение значения словаря specification
-PUT: /{kind}/{uuid}/settings/ - изменение значения словаря settings
-PUT: /{kind}/{uuid}/state - изменение значения статуса объекта
-DELETE: /{kind}/{uuid}/ - удаление объекта из базы данных
+GET: /{kind}/{uuid}/state - возвращение значения статуса объекта<br/>
+GET: /{kind}/{uuid} - возвращение объекта из базы данных<br/>
+POST: /{kind}/ - запрос на сохранение json документа<br/>
+PUT: /{kind}/{uuid}/configuration/ - изменение значения словаря specification<br/>
+PUT: /{kind}/{uuid}/settings/ - изменение значения словаря settings<br/>
+PUT: /{kind}/{uuid}/state - изменение значения статуса объекта<br/>
+DELETE: /{kind}/{uuid}/ - удаление объекта из базы данных<br/>
 
 ## Спек файлы
 Предложены спек файлы для запуска приложения в kubernetes кластере. Создал образ приложения на hub.docker.com в daviddz27/k8s-json-app
